@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 500px;
+    height: 100px;
+    background-color: purple;
+    margin: 0 auto;
+
+}
+
+span {
+    background-color: orange;
+}

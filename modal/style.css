@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.modal {
+    width: 500px;
+    height: 750px;
+    background-color: lightgray;
+
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    margin-left: -250px;
+}
+
+img {
+    width: 40px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    
+}
