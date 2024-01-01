@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: purple;
+  position: fixed;
+  z-index: 1;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.imagem-girafa {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./assets/girafa.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.imagem-girafa h1 {
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 155px;
+  width: 100%;
+  text-align: center;
+  padding-top: 60px;
+}
+
+main nav {
+  width: 50px;
+  height: 160px;
+  background-color: purple;
+  position: fixed;
+  bottom: 50%;
+  z-index: 1;
+  border-radius: 0 10px 10px 0;
+  margin-left: -27px;
+}
+
+main nav:hover {
+  margin-left: 0;
+  transition: 0.5s;
+}
+
+.img-icones {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin-top: 6px;
+}
+
+main p {
+  margin: 30px 70px;
+  text-align: justify;
+}
+
+p img {
+  position: absolute;
+  right: 0;
+}
+
+body {
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
